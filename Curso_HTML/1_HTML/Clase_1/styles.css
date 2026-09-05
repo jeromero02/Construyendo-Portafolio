@@ -1,0 +1,116 @@
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding-top: 150px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0%;
+  background: rgba(245, 245, 245, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.header_logo h2 {
+  color: #2f2fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.header_logo p {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  color: blue;
+}
+
+.nav a:hover {
+  background: #2f2fff;
+  color: white;
+}
+
+#inicio,
+#sobre-mi,
+#proyectos,
+#habilidades,
+#contacto {
+  scroll-margin-top: 160px;
+}
+
+.hero_container {
+  text-align: center;
+}
+
+.hero__subtitle {
+   color: #2f2fff;
+  font-family: 'Raleway', sans-serif;
+}
+
+.hero__description {
+  margin-bottom: 50px;
+}
+
+.hero__actions {
+  margin-bottom: 50px;
+}
+
+.button {
+   text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  color: blue;
+}
+
+.hero__actions a:hover {
+ background: #2f2fff;
+  color: white;
+}
+
+.stat__number {
+  color: #2f2fff;
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.hero__stats {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.about__title,
+.about__intro,
+.about__text,
+.quote {
+  text-align: center;
+}
+
+.values__list {
+  list-style-position: inside;
+  margin-left: 370px;
+}
+
+.values__title {
+  margin-left: 400px;
+}
